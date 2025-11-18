@@ -175,7 +175,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	// Code to test commit from STM32CUBEIDE
+	HAL_GPIO_TogglePin(GPIOB, LD1_Pin);
+	HAL_DELAY(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
